@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "moonetix-offerwall/history",
+	"version": "1.0.0",
+	"title": "Moonetix Reward History",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Lists the rewards of the logged-in user, for an account page.",
+	"keywords": [ "history", "rewards", "points" ],
+	"textdomain": "moonetix-offerwall",
+	"attributes": {
+		"limit": {
+			"type": "number",
+			"default": 20
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

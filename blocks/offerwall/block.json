@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "moonetix-offerwall/offerwall",
+	"version": "1.0.0",
+	"title": "Moonetix Offerwall",
+	"category": "widgets",
+	"icon": "awards",
+	"description": "Shows the Moonetix offerwall to logged-in users.",
+	"keywords": [ "offerwall", "rewards", "earn" ],
+	"textdomain": "moonetix-offerwall",
+	"attributes": {
+		"height": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

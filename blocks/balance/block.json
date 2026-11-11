@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "moonetix-offerwall/balance",
+	"version": "1.0.0",
+	"title": "Moonetix Balance",
+	"category": "widgets",
+	"icon": "money-alt",
+	"description": "Shows the reward balance of the logged-in user, for example in the header.",
+	"keywords": [ "balance", "points", "rewards" ],
+	"textdomain": "moonetix-offerwall",
+	"supports": {
+		"html": false,
+		"color": { "text": true, "background": true },
+		"typography": { "fontSize": true }
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

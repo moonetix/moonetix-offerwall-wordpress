@@ -1,0 +1,268 @@
+.moonetix-offerwall {
+	position: relative;
+	width: 100%;
+	max-height: 90vh;
+	min-height: 400px;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.moonetix-offerwall iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.moonetix-offerwall-note {
+	padding: 1.25em;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 12px;
+	text-align: center;
+}
+
+.moonetix-offerwall-note p {
+	margin: 0.25em 0;
+}
+
+.moonetix-offerwall-placeholder {
+	padding: 2em;
+	border: 1px dashed currentColor;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.moonetix-offerwall-history {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.moonetix-offerwall-history th,
+.moonetix-offerwall-history td {
+	padding: 0.5em 0.75em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: left;
+}
+
+.moonetix-offerwall-history td:last-child,
+.moonetix-offerwall-history th:last-child {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.moonetix-offerwall-history .is-reversed td {
+	opacity: 0.6;
+}
+
+.moonetix-ow-lock {
+	overflow: hidden;
+}
+
+.moonetix-ow-float {
+	position: fixed;
+	bottom: 20px;
+	z-index: 99990;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6em;
+	padding: 0.75em 1.1em;
+	border: 0;
+	border-radius: 999px;
+	background: var(--moonetix-ow-accent, #0E7A48);
+	color: var(--moonetix-ow-on-accent, #FFFFFF);
+	font: 600 15px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+}
+
+.moonetix-ow-float.is-right {
+	right: 20px;
+}
+
+.moonetix-ow-float.is-left {
+	left: 20px;
+}
+
+.moonetix-ow-float:focus-visible {
+	outline: 3px solid var(--moonetix-ow-accent, #0E7A48);
+	outline-offset: 3px;
+}
+
+.moonetix-ow-float-b {
+	padding: 0.2em 0.6em;
+	border-radius: 999px;
+	background: rgba(0, 0, 0, 0.2);
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.moonetix-ow-dialog {
+	width: min(960px, calc(100vw - 24px));
+	height: min(900px, calc(100vh - 48px));
+	max-width: none;
+	max-height: none;
+	padding: 0;
+	border: 0;
+	border-radius: 16px;
+	overflow: hidden;
+	background: #0A0C0B;
+}
+
+.moonetix-ow-dialog::backdrop {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.moonetix-ow-dialog[open] {
+	display: flex;
+	flex-direction: column;
+}
+
+.moonetix-ow-bar {
+	display: flex;
+	flex: none;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 6px 8px 6px 16px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	background: #0A0C0B;
+	color: #FFFFFF;
+	font: 600 15px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.moonetix-ow-dialog iframe {
+	display: block;
+	flex: 1;
+	width: 100%;
+	min-height: 0;
+	border: 0;
+}
+
+.moonetix-ow-close {
+	width: 40px;
+	height: 40px;
+	border: 0;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.1);
+	color: #FFFFFF;
+	font-size: 26px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.moonetix-ow-close:hover,
+.moonetix-ow-close:focus-visible {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.moonetix-ow-toasts {
+	position: fixed;
+	bottom: 84px;
+	z-index: 99991;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.moonetix-ow-toasts.is-right {
+	right: 20px;
+}
+
+.moonetix-ow-toasts.is-left {
+	left: 20px;
+}
+
+.moonetix-ow-toast {
+	display: flex;
+	flex-direction: column;
+	min-width: 200px;
+	padding: 0.7em 1em;
+	border-left: 4px solid var(--moonetix-ow-accent, #0E7A48);
+	border-radius: 10px;
+	background: #FFFFFF;
+	color: #1E1E1E;
+	font: 14px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+	cursor: pointer;
+	animation: moonetix-ow-in 0.35s ease-out;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+.moonetix-ow-toast strong {
+	font-size: 16px;
+}
+
+.moonetix-ow-toast span {
+	color: #50575E;
+}
+
+.moonetix-ow-toast.is-out {
+	opacity: 0;
+	transform: translateY(8px);
+}
+
+@keyframes moonetix-ow-in {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+}
+
+@media (max-width: 600px) {
+	.moonetix-ow-dialog {
+		width: 100vw;
+		height: 100vh;
+		border-radius: 0;
+	}
+
+	.moonetix-ow-float {
+		bottom: 16px;
+	}
+
+	.moonetix-ow-float.is-right,
+	.moonetix-ow-toasts.is-right {
+		right: 16px;
+	}
+
+	.moonetix-ow-float.is-left,
+	.moonetix-ow-toasts.is-left {
+		left: 16px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.moonetix-ow-toast {
+		animation: none;
+		transition: none;
+	}
+}
+
+.moonetix-offerwall-credit {
+	margin: 0.5em 0 0;
+	font-size: 0.8em;
+	text-align: right;
+	opacity: 0.75;
+}
+
+.moonetix-offerwall-credit a {
+	color: inherit;
+}
+
+.moonetix-offerwall-note.is-admin {
+	margin-bottom: 0.75em;
+	padding: 0.6em 1em;
+	border-style: dashed;
+	font-size: 0.875em;
+}
+
+@media (min-width: 783px) {
+	.moonetix-ow-float.only-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 782px) {
+	.moonetix-ow-float.only-desktop {
+		display: none;
+	}
+}
