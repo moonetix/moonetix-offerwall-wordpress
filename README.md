@@ -3,6 +3,7 @@
 # Moonetix Offerwall for WordPress
 
 <p>
+  <a href="https://github.com/moonetix/moonetix-offerwall-wordpress/actions/workflows/ci.yml"><img src="https://github.com/moonetix/moonetix-offerwall-wordpress/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://moonetix.com/register"><img src="https://img.shields.io/badge/get%20your%20keys-moonetix.com-7DF2A8?labelColor=0A0C0B" alt="Get your keys"></a>
   <a href="https://docs.moonetix.com/wordpress"><img src="https://img.shields.io/badge/docs-setup%20guide-7DF2A8?labelColor=0A0C0B" alt="Setup guide"></a>
   <img src="https://img.shields.io/badge/WordPress-6.3%2B-21759B?logo=wordpress&logoColor=white" alt="WordPress 6.3+">
