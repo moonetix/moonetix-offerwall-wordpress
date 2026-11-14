@@ -4,7 +4,6 @@
 
 <p>
   <a href="https://github.com/moonetix/moonetix-offerwall-wordpress/actions/workflows/ci.yml"><img src="https://github.com/moonetix/moonetix-offerwall-wordpress/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://moonetix.com/register?from=github-moonetix-offerwall-wordpress"><img src="https://img.shields.io/badge/get%20your%20keys-moonetix.com-7DF2A8?labelColor=0A0C0B" alt="Get your keys"></a>
   <a href="https://docs.moonetix.com/wordpress"><img src="https://img.shields.io/badge/docs-setup%20guide-7DF2A8?labelColor=0A0C0B" alt="Setup guide"></a>
   <img src="https://img.shields.io/badge/WordPress-6.3%2B-21759B?logo=wordpress&logoColor=white" alt="WordPress 6.3+">
   <img src="https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white" alt="PHP 7.4+">
@@ -50,7 +49,7 @@ sequenceDiagram
 
 - WordPress 6.3 or newer, PHP 7.4 or newer
 - HTTPS
-- A free Moonetix publisher account and an approved offerwall for your site: [sign up](https://moonetix.com/register?from=github-moonetix-offerwall-wordpress)
+- A free Moonetix publisher account and an approved offerwall for your site: see [Get started](#get-started)
 
 ## Install
 
@@ -170,7 +169,7 @@ Found a security issue? Please email support@moonetix.com instead of opening a p
 
 ## Get started
 
-**[Sign up free at moonetix.com](https://moonetix.com/register?from=github-moonetix-offerwall-wordpress)**, add your site, and paste the three keys into the plugin. Every publisher application is reviewed by hand, and once approved your site goes live right away.
+[Sign up free at moonetix.com](https://moonetix.com/register?from=github-moonetix-offerwall-wordpress), add your site, and paste the three keys into the plugin. Every publisher application is reviewed by hand, and once approved your site goes live right away.
 
 ## More Moonetix examples
 
