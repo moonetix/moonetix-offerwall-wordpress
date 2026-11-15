@@ -4,6 +4,7 @@
 
 <p>
   <a href="https://github.com/moonetix/moonetix-offerwall-wordpress/actions/workflows/ci.yml"><img src="https://github.com/moonetix/moonetix-offerwall-wordpress/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://wordpress.org/plugins/moonetix-offerwall/"><img src="https://img.shields.io/wordpress/plugin/v/moonetix-offerwall?label=wordpress.org&color=21759B" alt="WordPress.org plugin version"></a>
   <a href="https://docs.moonetix.com/wordpress"><img src="https://img.shields.io/badge/docs-setup%20guide-7DF2A8?labelColor=0A0C0B" alt="Setup guide"></a>
   <img src="https://img.shields.io/badge/WordPress-6.3%2B-21759B?logo=wordpress&logoColor=white" alt="WordPress 6.3+">
   <img src="https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white" alt="PHP 7.4+">
@@ -19,7 +20,7 @@ The official WordPress plugin for [Moonetix](https://moonetix.com/), an affiliat
 - **Fits your site.** Floating Earn button, menu items that open the offerwall in a window, "Who can earn" by user role, page caching support, keys in `wp-config.php`.
 - **Built into WordPress.** Settings API, Site Health check, dashboard widget, privacy export and erase.
 
-The plugin has been submitted to the WordPress.org plugin directory and is waiting for review.
+The plugin is in the [WordPress.org plugin directory](https://wordpress.org/plugins/moonetix-offerwall/).
 
 ## How it works
 
@@ -53,8 +54,8 @@ sequenceDiagram
 
 ## Install
 
-1. Download the latest zip from [Releases](https://github.com/moonetix/moonetix-offerwall-wordpress/releases) or from [moonetix.com](https://moonetix.com/downloads/moonetix-offerwall-1.0.0.zip).
-2. In WordPress, go to Plugins, Add New Plugin, Upload Plugin, choose the zip, and activate it.
+1. In WordPress, go to Plugins, Add New Plugin, search for **Moonetix Offerwall**, install it and activate it. You can also get it from [WordPress.org](https://wordpress.org/plugins/moonetix-offerwall/) or as a zip from [Releases](https://github.com/moonetix/moonetix-offerwall-wordpress/releases).
+2. Updates arrive in your WordPress admin like for any other plugin from the directory.
 3. Open Settings, Moonetix Offerwall, and paste your App ID, link hash salt and postback secret key. Each field says where to find it in your Moonetix dashboard.
 4. Copy the postback URL from the plugin into the Postback page of your Moonetix dashboard, and send a test postback.
 5. Click **Create the Earn page**, check the draft, and publish it.
