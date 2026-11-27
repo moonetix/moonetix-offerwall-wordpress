@@ -1,18 +1,20 @@
-=== Moonetix Offerwall ===
+=== Moonetix Offerwall: Earn Points with Rewarded Offers ===
 Contributors: moonetixcom
-Tags: offerwall, rewards, points, monetization, woocommerce
+Tags: offerwall, reward points, mycred, gamipress, terawallet
 Requires at least: 6.3
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Show the Moonetix offerwall to logged-in users and credit their rewards automatically: built-in balance, myCRED, GamiPress, or TeraWallet.
+Rewarded offerwall: users earn points for app installs, games and sign-ups, credited to a built-in balance, myCRED, GamiPress or TeraWallet.
 
 == Description ==
 
 Moonetix Offerwall puts a rewarded offerwall on your WordPress site. Your users complete offers such as app installs, games, and sign-ups, they get points on your site, and you earn for every completed offer.
+
+Use it as an earn-points add-on for myCRED, GamiPress, or TeraWallet, or on its own with the built-in points balance.
 
 The plugin does the parts that are easy to get wrong:
 
@@ -163,6 +165,10 @@ Nothing, unless you tick "Delete all plugin data when the plugin is deleted" und
 
 == Changelog ==
 
+= 1.0.1 =
+* Clearer plugin name, description, and tags in the WordPress.org directory. No code changes.
+* Tested with WordPress 7.1.
+
 = 1.0.0 =
 * First release.
 * Offerwall, balance, and reward history blocks and shortcodes, with signed offerwall links.
@@ -176,6 +182,9 @@ Nothing, unless you tick "Delete all plugin data when the plugin is deleted" und
 * Share calculator for the conversion rate and split to user.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Directory text only, no code changes.
 
 = 1.0.0 =
 First release.

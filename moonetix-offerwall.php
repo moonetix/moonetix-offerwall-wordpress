@@ -3,7 +3,7 @@
  * Plugin Name:       Moonetix Offerwall
  * Plugin URI:        https://docs.moonetix.com/wordpress
  * Description:       Show the Moonetix offerwall to logged-in users and credit their rewards automatically: built-in balance, myCRED, GamiPress, or TeraWallet.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.3
  * Requires PHP:      7.4
  * Author:            Moonetix
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MOONETIX_OFFERWALL_VERSION', '1.0.0' );
+define( 'MOONETIX_OFFERWALL_VERSION', '1.0.1' );
 define( 'MOONETIX_OFFERWALL_DB_VERSION', '2' );
 define( 'MOONETIX_OFFERWALL_FILE', __FILE__ );
 define( 'MOONETIX_OFFERWALL_DIR', plugin_dir_path( __FILE__ ) );

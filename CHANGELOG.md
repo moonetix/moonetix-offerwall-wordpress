@@ -2,6 +2,13 @@
 
 All notable changes to this plugin are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/). The same list ships in `readme.txt` for WordPress.org.
 
+## [1.0.1] - 2026-11-27
+
+### Changed
+
+- Clearer plugin name, description, and tags in the WordPress.org directory. No code changes.
+- Tested with WordPress 7.1.
+
 ## [1.0.0] - 2026-11-11
 
 ### Added
@@ -16,4 +23,5 @@ All notable changes to this plugin are listed here. The format follows [Keep a C
 - Earn button on chosen devices, hidden on chosen pages and on the cart and checkout; menu items and buttons that open the offerwall.
 - Share calculator for the conversion rate and split to user.
 
+[1.0.1]: https://github.com/moonetix/moonetix-offerwall-wordpress/releases/tag/v1.0.1
 [1.0.0]: https://github.com/moonetix/moonetix-offerwall-wordpress/releases/tag/v1.0.0
